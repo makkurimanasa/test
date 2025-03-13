@@ -9,7 +9,7 @@ const Login = () => {
 
   let login = (e) => {
     e.preventDefault();
-    ref1.current.value === "manasa" && ref2.current.value === "manasa@123"
+    ref1.current.value === "admin" && ref2.current.value === "admin@123"
       ? navigate("dashboard")
       : navigate("error");
   };
